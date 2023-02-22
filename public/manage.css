@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+}
+
+.header2{
+   /* margin:0 4.5rem; */
+   /* padding:10px ; */
+    height: 5rem;
+    max-width: 100%;
+    min-width: 90%;
+    background-color: #223d16;
+    display: flex;
+    position: relative;
+    /* justify-content:space-around ; */
+    
+    
+
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-items2{
+    width: 40%;
+    display: flex;
+    list-style-type:none;
+    justify-content: space-between;
+    
+}
+li{
+    /* position: absolute; */
+    padding:0.8rem;
+    margin:.9rem 7rem 0rem 1.5rem;
+    display: flex;
+    justify-content:space-between ;
+    text-overflow: inherit;
+    text-decoration:none;
+    color: white;
+    
+}
+
+a{
+    position:absolute;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+/*..................................................*/
+
+
+
+
+
+.section-signup{
+    margin: 2rem auto;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.signup-form{
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+    padding: 1rem;
+    
+}
+.signup-form label{
+    display: block;
+   
+    /* padding: 0.2rem; */
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+.form-group{
+    margin-top: 0.5rem;
+}
+
+.signup-btn{
+    background-color: #223d16;
+    border: none;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+h3{
+    margin-left: 17.5rem;
+}
+

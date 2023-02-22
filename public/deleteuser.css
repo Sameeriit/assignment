@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+}
+
+
+
+
+
+.header2{
+    /* margin:0 4.5rem; */
+    /* padding:10px ; */
+     height: 5rem;
+     max-width: 100%;
+     min-width: 90%;
+     background-color: #223d16;
+     display: flex;
+     position: relative;
+     /* justify-content:space-around ; */
+     
+ 
+ 
+ }
+ .container{
+     max-width: 1000px;
+     margin: auto;
+     width: 90%;
+ }
+ .nav{
+     min-height: 8vh;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+ }
+ 
+ .nav-items2{
+     width: 40%;
+     display: flex;
+     list-style-type:none;
+     justify-content: space-between;
+ }
+ li{
+     /* position: absolute; */
+     padding:0.8rem;
+     margin:.9rem 7rem 0rem 1.5rem;
+     display: flex;
+     justify-content:space-between ;
+     text-overflow: inherit;
+     
+     
+ }
+ 
+ a{
+     position:absolute;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     justify-content: space-between;
+ }
+ 
+ 
+ /* -------------------------------------- */
+ .userlistform{
+    /* text-align: center; */
+   display:flex;
+    height: 15rem;
+    width: 18rem;
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color: rgb(239, 243, 247);
+}
+:hover.btn{
+    cursor: pointer;
+    background-color: rgb(110, 173, 241);
+
+
+}
+.content{
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.btn{
+    margin-top:1rem ;
+    margin: .2rem;
+    padding: 0.2rem .5rem;
+    border: none;
+    
+    background-color: rgb(174, 209, 247);
+}
+ 

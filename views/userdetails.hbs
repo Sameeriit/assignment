@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+
+<body>
+    <header class="header2">
+
+        <nav class="nav container">
+        <ul class="nav-items2">
+               
+               <li><a href ="/">Home</a></li>
+               <li><a href ="/nextpage">Nextpage</a></li>
+               <li><a href="/filter">Filter</a></li>
+          
+        </ul>
+        </nav>
+
+
+    </header>
+
+
+
+{{!-- ----------------------------------------------------- --}}
+
+
+
+
+
+    <section class="section-signup container">
+        <h2>Fetch User</h2>
+        <form action="/submit" class="signup-form">
+            <div class="form-group">
+                <lable for="username">Username</lable>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <lable for="email">Email</lable>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <lable for="password">Password</lable>
+                <input type="password" name="" id="password">
+            </div>
+            <div class="form-group">
+                <lable for="confirmPassword">ComfirmPassword</lable>
+                <input type="password" name="ConfirmPassword" id="confirmPassword">
+            </div>
+            <div class="form-group">
+                <lable for="phone">Phone</lable>
+                <input type="text" name="phone" id="phone">
+            </div>
+
+
+            <button type="submit" class="btn signup-btn">Submit</button>
+            {{#if mesg}}
+            <h3>submited successfully</h3>
+            {{/if}}
+{{!-- 
+             {{#if checkmesg}}
+            <h3>data already exist</h3>
+            {{/if}} --}}
+
+
+        </form>
+    </section>
+</body>
+
+</html>
